@@ -79,6 +79,7 @@ public class Calculator {
 
         for (int i = 0; i < doubleArray.length; i++){
             if (doubleArray[i] > max){
+                max = doubleArray[i];
                 indexMax = i;
             }
         }
@@ -103,6 +104,7 @@ public class Calculator {
 
         for (int i = 0; i < doubleArray.length; i++){
             if (doubleArray[i] < min){
+                min = doubleArray[i];
                 indexMin = i;
             }
         }

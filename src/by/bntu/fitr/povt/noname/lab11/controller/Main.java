@@ -23,9 +23,13 @@ public class Main {
 
         Vector vector = new Vector(doubleArray);
         double sumOfNegative = Calculator.sumOfNegativeElem(vector);
+        double prodOfElem = Calculator.prodOfElemBetweenMinAndMax(vector);
+        int indexMax = Calculator.indexOfMaxElem(vector);
+        int indexMin = Calculator.indexOfMinElem(vector);
 
-        printer.print(Calculator.prodOfElemBetweenMinAndMax(vector));
-
-
+        printer.print("sum of negative elements = " + sumOfNegative);
+        printer.print("product of elements between min and max = " + prodOfElem);
+        printer.print("max index = " + indexMax);
+        printer.print("min index = " + indexMin);
     }
 }
