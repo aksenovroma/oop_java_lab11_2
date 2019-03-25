@@ -19,6 +19,10 @@ public class Vector {
         }
     }
 
+    public int size() {
+        return elements.length;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
